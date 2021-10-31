@@ -14,7 +14,7 @@ class MyArgs:
     Note that every variable must have a type, otherwise you won't be able to change this argument from the shell
     """
     num_people: int = int(1e5)  # Comments can be used for documentation
-    num_simulations: int = 100  # Unlike argparse's help, comments won't be presented in the CLI
+    num_simulations: int = 1000000  # Unlike argparse's help, comments won't be presented in the CLI
 
 
 def main(args: MyArgs):
